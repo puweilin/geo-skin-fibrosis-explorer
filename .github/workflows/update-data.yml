@@ -15,8 +15,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -24,26 +22,17 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install biopython pandas requests pyyaml
+        run: pip install biopython pandas requests pyyaml
 
       - name: Run update script
         env:
           NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
-        run: |
-          python scripts/update_data.py
+        run: python scripts/update_data.py
 
-      - name: Commit and push if changed
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git pull --rebase origin main
-          git add data/geo_data.json
-          if git diff --quiet --cached; then
-            echo "No changes to commit"
-          else
-            git commit -m "Auto-update: $(date +'%Y-%m-%d')"
-            git push
-          fi
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update: $(date +'%Y-%m-%d')"
+          file_pattern: 'data/geo_data.json'
