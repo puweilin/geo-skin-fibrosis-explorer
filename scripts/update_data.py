@@ -47,22 +47,43 @@ def build_query():
     return f"({keyword_query}) AND ({org_query}) AND ({type_query}) AND {date_query}"
 
 
-def search_geo():
+def search_geo(max_retries=3):
+    """搜索 GEO 数据库（带重试机制）"""
     query = build_query()
     print(f"搜索查询: {query[:100]}...")
-    handle = Entrez.esearch(db="gds", term=query, retmax=500, usehistory="y")
-    results = Entrez.read(handle)
-    handle.close()
-    return results.get("IdList", [])
+
+    for attempt in range(max_retries):
+        try:
+            handle = Entrez.esearch(db="gds", term=query, retmax=500, usehistory="y")
+            results = Entrez.read(handle)
+            handle.close()
+            return results.get("IdList", [])
+        except Exception as e:
+            print(f"搜索失败 (尝试 {attempt + 1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(10)
+            else:
+                print("所有重试都失败了")
+                return []
 
 
-def fetch_summaries(id_list):
+def fetch_summaries(id_list, max_retries=3):
+    """获取数据集摘要（带重试机制）"""
     if not id_list:
         return []
-    handle = Entrez.esummary(db="gds", id=",".join(id_list))
-    records = Entrez.read(handle)
-    handle.close()
-    return records
+
+    for attempt in range(max_retries):
+        try:
+            handle = Entrez.esummary(db="gds", id=",".join(id_list))
+            records = Entrez.read(handle)
+            handle.close()
+            return records
+        except Exception as e:
+            print(f"获取摘要失败 (尝试 {attempt + 1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(10)
+            else:
+                return []
 
 
 def clean_pubmed_ids(pubmed_str):
