@@ -15,6 +15,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Get latest code
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -43,12 +51,13 @@ jobs:
             exit 0
           fi
 
-          # 先提交本地更改
+          # 提交更改
           git add data/geo_data.json
           git commit -m "Auto-update data"
 
-          # 拉取远程更改并 rebase
-          git pull --rebase origin main
-
-          # 推送
-          git push origin main
+          # 推送（带重试）
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin main && break
+            echo "Push failed, retry $i..."
+            sleep 5
+          done
