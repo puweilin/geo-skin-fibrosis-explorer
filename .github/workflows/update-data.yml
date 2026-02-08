@@ -2,9 +2,11 @@ name: Daily Data Update
 
 on:
   schedule:
-    # 每天 UTC 16:00 运行 (北京时间凌晨 00:00)
     - cron: '0 16 * * *'
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update:
