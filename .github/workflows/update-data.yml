@@ -51,13 +51,33 @@ jobs:
             exit 0
           fi
 
-          # 提交更改
-          git add data/geo_data.json
-          git commit -m "Auto-update data"
-
           # 推送（带重试）
-          for i in 1 2 3; do
-            git pull --rebase origin main && git push origin main && break
-            echo "Push failed, retry $i..."
+          for i in 1 2 3 4 5; do
+            echo "Attempt $i..."
+
+            # 保存本地更改
+            git stash
+
+            # 获取并合并远程最新代码
+            git fetch origin main
+            git reset --hard origin/main
+
+            # 恢复本地更改
+            git stash pop || true
+
+            # 提交更改
+            git add data/geo_data.json
+            git commit -m "Auto-update data $(date +%Y-%m-%d)" || true
+
+            # 推送
+            if git push origin main; then
+              echo "Push succeeded!"
+              exit 0
+            fi
+
+            echo "Push failed, retrying in 5 seconds..."
             sleep 5
           done
+
+          echo "All push attempts failed"
+          exit 1
