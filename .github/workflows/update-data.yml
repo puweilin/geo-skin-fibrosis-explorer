@@ -15,11 +15,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Pull latest changes
-        run: git pull origin main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -39,13 +34,21 @@ jobs:
 
       - name: Commit and push if changed
         run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # 检查是否有变化
           if git diff --quiet data/geo_data.json; then
             echo "No changes to commit"
             exit 0
           fi
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git pull origin main
+
+          # 先提交本地更改
           git add data/geo_data.json
           git commit -m "Auto-update data"
-          git push
+
+          # 拉取远程更改并 rebase
+          git pull --rebase origin main
+
+          # 推送
+          git push origin main
