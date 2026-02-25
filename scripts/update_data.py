@@ -19,7 +19,8 @@ SEARCH_CONFIG = {
     "keywords": [
         "skin fibrosis", "dermal fibrosis", "scleroderma skin",
         "cutaneous fibrosis", "systemic sclerosis skin",
-        "keloid", "hypertrophic scar"
+        "keloid", "hypertrophic scar",
+        "systemic sclerosis"
     ],
     "organisms": ["Homo sapiens", "Mus musculus"],
     "data_types": [
@@ -31,6 +32,31 @@ SEARCH_CONFIG = {
 }
 
 DATA_FILE = "data/geo_data.json"
+
+# Skin-relevance terms: datasets must mention at least one of these in title/summary
+SKIN_TERMS = [
+    "skin", "dermal", "cutaneous", "scleroderma", "keloid",
+    "hypertrophic scar", "fibroblast", "wound", "epiderm",
+]
+
+# Datasets primarily about these organs (without skin relevance) are excluded
+LUNG_ONLY_TERMS = ["pulmonary", "lung"]
+
+
+def is_skin_relevant(record):
+    """Check if a dataset is relevant to skin (not purely lung/other organ)."""
+    title = record.get("title", "").lower()
+    summary = record.get("summary", "").lower()
+    combined = title + " " + summary
+    has_skin = any(term in combined for term in SKIN_TERMS)
+    if has_skin:
+        return True
+    # If no skin terms found, reject datasets that are purely about lung
+    has_lung = any(term in combined for term in LUNG_ONLY_TERMS)
+    if has_lung:
+        return False
+    # No skin terms and no lung terms — keep it (could be generally relevant)
+    return True
 
 
 def setup_entrez():
@@ -199,9 +225,15 @@ def main():
     summaries = fetch_summaries(id_list)
 
     new_count = 0
+    skipped_lung = 0
     for record in summaries:
         accession = record.get("Accession", "")
         if accession in existing_accessions or not accession.startswith("GSE"):
+            continue
+
+        if not is_skin_relevant(record):
+            skipped_lung += 1
+            print(f"  跳过 (非皮肤相关): {accession}")
             continue
 
         parsed = parse_record(record)
@@ -210,6 +242,9 @@ def main():
             existing_accessions.add(accession)
             new_count += 1
             print(f"  新增: {accession}")
+
+    if skipped_lung:
+        print(f"跳过 {skipped_lung} 条非皮肤相关数据集")
 
     if new_count > 0:
         with open(DATA_FILE, 'w', encoding='utf-8') as f:
