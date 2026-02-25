@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE217067",
+    "Title": "Machine-learning Classification Identifies Early Systemic Sclerosis Patients that Improve with Abatacept treatment by Modulating CD28-Pathways",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 233,
+    "Platform": "18573",
+    "Country": "",
+    "Lab": "",
+    "Institute": "",
+    "Contributors": "",
+    "PubMed_IDs": "36355434",
+    "Supplementary_Size": "N/A",
+    "Summary": "The efficacy of abatacept in patients with early diffuse systemic sclerosis (dcSSc) was analyzed to test the hypothesis that patients in the inflammatory intrinsic gene expression subset would show the most significant clinical improvement. 84 participants with dcSSc were randomized to receive abatacept or placebo for 12 months. RNA-seq was performed on 233 skin paired biopsies at baseline, 3- and 6-months. Improvement was defined as a 5 point or >20% change in modified Rodnan skin score (mRSS) between baseline and 12 months. Samples were assigned to intrinsic gene expression subset (inflammatory, fibroproliferative, or normal-like). In the abatacept arm, change in mRSS was most pronounced for the inflammatory (p<0.001) and normal-like (p=0.03) subsets relative to placebo. Participants on placebo remained in their molecular subset while inflammatory participants treated with abatacept moved toward normal-like. The CD28 costimulation pathway decreased in patients that improved on abatacept (FDR=5.88x10-4) and was specific to the inflammatory subset (FDR=0%). Patients in the inflammatory subset had elevation of the CD28 costimulation pathway at baseline relative to fibroproliferative (p = 0.0026) and normal-like (p=0.0001) participants. There was a correlation between improved ΔmRSS and baseline expression of the CD28 costimulation pathway (R=-0.62, p=0.02). This study provides an example of precision medicine in SSc clinical trials.",
+    "Overall_Design": "",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE217067",
+    "Submission_Date": "2023/02/01"
+  },
+  {
     "Accession": "GSE312591",
     "Title": "RUNX1 is Expressed in a Subpopulation of Dermal Fibroblasts and is Associated with Disease Severity of Systemic Sclerosis [scRNA-seq]",
     "Organism": "Homo sapiens",
