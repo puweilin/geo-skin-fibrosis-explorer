@@ -69,8 +69,7 @@ def build_query():
     keyword_query = " OR ".join([f'"{kw}"' for kw in SEARCH_CONFIG["keywords"]])
     org_query = " OR ".join([f'"{org}"[Organism]' for org in SEARCH_CONFIG["organisms"]])
     type_query = " OR ".join([f'"{t}"[DataSet Type]' for t in SEARCH_CONFIG["data_types"]])
-    date_query = "0030[MDAT]"
-    return f"({keyword_query}) AND ({org_query}) AND ({type_query}) AND {date_query}"
+    return f"({keyword_query}) AND ({org_query}) AND ({type_query})"
 
 
 def search_geo(max_retries=3):
@@ -80,7 +79,10 @@ def search_geo(max_retries=3):
 
     for attempt in range(max_retries):
         try:
-            handle = Entrez.esearch(db="gds", term=query, retmax=500, usehistory="y")
+            handle = Entrez.esearch(
+                db="gds", term=query, retmax=500, usehistory="y",
+                reldate=30, datetype="mdat"
+            )
             results = Entrez.read(handle)
             handle.close()
             return results.get("IdList", [])
