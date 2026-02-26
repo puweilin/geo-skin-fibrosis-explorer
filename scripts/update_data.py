@@ -164,6 +164,46 @@ def generate_ai_summary(title, summary, data_type):
     return ""
 
 
+def fetch_geo_soft(accession):
+    """获取GEO SOFT格式的详细信息（Country, Lab, Institute等）"""
+    url = f"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc={accession}&targ=self&form=text&view=full"
+    try:
+        response = requests.get(url, timeout=30)
+        if response.status_code != 200:
+            return {}
+
+        info = {
+            "overall_design": "",
+            "contributors": [],
+            "lab": "",
+            "institute": "",
+            "country": "",
+        }
+
+        for line in response.text.split('\n'):
+            line = line.strip()
+            if line.startswith('!Series_overall_design'):
+                info["overall_design"] = line.split('=', 1)[1].strip()
+            elif line.startswith('!Series_contributor'):
+                contributor = line.split('=', 1)[1].strip()
+                parts = contributor.split(',')
+                if len(parts) >= 2:
+                    name = f"{parts[-1]} {parts[0]}".strip()
+                    if name and name not in info["contributors"]:
+                        info["contributors"].append(name)
+            elif line.startswith('!Series_contact_laboratory'):
+                info["lab"] = line.split('=', 1)[1].strip()
+            elif line.startswith('!Series_contact_institute'):
+                info["institute"] = line.split('=', 1)[1].strip()
+            elif line.startswith('!Series_contact_country'):
+                info["country"] = line.split('=', 1)[1].strip()
+
+        return info
+    except Exception as e:
+        print(f"    获取SOFT信息失败: {e}")
+        return {}
+
+
 def parse_record(record):
     accession = record.get("Accession", "")
     if not accession.startswith("GSE"):
@@ -176,6 +216,10 @@ def parse_record(record):
     summary = record.get("summary", "")
     data_type = "bulk RNA-seq"
 
+    # 获取详细SOFT信息
+    soft_info = fetch_geo_soft(accession)
+    time.sleep(0.3)
+
     ai_summary = generate_ai_summary(title, summary, data_type)
     if ai_summary:
         time.sleep(1)
@@ -187,14 +231,14 @@ def parse_record(record):
         "Data_Type": data_type,
         "Sample_Count": record.get("n_samples", 0),
         "Platform": record.get("GPL", ""),
-        "Country": "",
-        "Lab": "",
-        "Institute": "",
-        "Contributors": "",
+        "Country": soft_info.get("country", ""),
+        "Lab": soft_info.get("lab", ""),
+        "Institute": soft_info.get("institute", ""),
+        "Contributors": "; ".join(soft_info.get("contributors", [])),
         "PubMed_IDs": pubmed_str,
         "Supplementary_Size": "N/A",
         "Summary": summary,
-        "Overall_Design": "",
+        "Overall_Design": soft_info.get("overall_design", ""),
         "AI_Summary_CN": ai_summary,
         "AI_Summary": ai_summary,
         "GEO_Link": f"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc={accession}",
