@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE297035",
+    "Title": "Radiation triggers a clinically relevant profibrotic p53-mediated DNA damage response in an ex vivo human skin model",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 55,
+    "Platform": "34284",
+    "Country": "USA",
+    "Lab": "",
+    "Institute": "University of Miami",
+    "Contributors": "Dodson Caroline; Bilik Sophie; Stone Rivka",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Radiation therapy is a cornerstone of cancer treatment which frequently leads to cutaneous side effects. In a significant proportion of patients, this can progress to debilitating radiation-induced skin fibrosis (RISF). To investigate the early molecular events underlying RISF, we employed a novel human ex vivo model utilizing discarded human skin from elective surgical procedures. This dataset is comprised of irradiated and control skin from 6 human donors post-panniculectomy.",
+    "Overall_Design": "Skin was irradiated with 0 Gy (control) or 3.5 Gy (irradiated) using a benchtop irradiator. A paired experimental design was employed, with irradiated and non-irradiated (control) samples from the same donor were maintained at an air-liquid interface and collected at various time points post-irradiation: Immediate (Day 0), Day 1, Day 2, Day 5, Day 7.",
+    "AI_Summary_CN": "本研究利用人类离体皮肤模型结合bulk RNA-seq技术，探讨放射性皮肤纤维化（RISF）的早期分子机制。通过对6名患者来源的照射与对照皮肤样本进行转录组分析，揭示了p53介导的DNA损伤响应通路在辐射诱导促纤维化反应中的关键作用，为理解RISF发病机制及早期干预提供了重要线索。",
+    "AI_Summary": "本研究利用人类离体皮肤模型结合bulk RNA-seq技术，探讨放射性皮肤纤维化（RISF）的早期分子机制。通过对6名患者来源的照射与对照皮肤样本进行转录组分析，揭示了p53介导的DNA损伤响应通路在辐射诱导促纤维化反应中的关键作用，为理解RISF发病机制及早期干预提供了重要线索。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297035",
+    "Submission_Date": "2026/03/09"
+  },
+  {
     "Accession": "GSE314055",
     "Title": "FOSL2 binding to enhancer elements regulates endothelial cell state in systemic sclerosis pulmonary vascular disease",
     "Organism": "Mus musculus",
