@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE308096",
+    "Title": "Research on the Pathogenesis of Systemic Sclerosis",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 20,
+    "Platform": "24676",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "Anhui Medical University",
+    "Contributors": "Wang Jing",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "By analyzing differentially expressed genes, a preliminary CeRNA network related to the pathogenesis of SSc was established. Further studies will be conducted to determine the impact of genes in this network on the development of SSc.",
+    "Overall_Design": "RNA-seq and miRNA-seq were performed on five samples each from the systemic sclerosis case group and the healthy control group.",
+    "AI_Summary_CN": "本研究通过bulk RNA-seq技术分析系统性硬化症（SSc）的差异表达基因，构建了初步的CeRNA调控网络，为阐明SSc发病机制提供了新的分子视角，并为后续验证网络关键基因的功能奠定基础。",
+    "AI_Summary": "本研究通过bulk RNA-seq技术分析系统性硬化症（SSc）的差异表达基因，构建了初步的CeRNA调控网络，为阐明SSc发病机制提供了新的分子视角，并为后续验证网络关键基因的功能奠定基础。",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE308096",
+    "Submission_Date": "2026/04/14"
+  },
+  {
     "Accession": "GSE320020",
     "Title": "Macrophage–Fibroblast Signaling Network Identified by Single-Cell RNA Sequencing in Juvenile Systemic Sclerosis",
     "Organism": "Homo sapiens",
