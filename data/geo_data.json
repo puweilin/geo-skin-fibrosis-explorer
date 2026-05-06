@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE305616",
+    "Title": "Lipodystrophy and recovery are mediated by the Wnt/lipogenesis axis during skin fibrosis.",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 15,
+    "Platform": "24247",
+    "Country": "USA",
+    "Lab": "Rudolph Lab",
+    "Institute": "OUHC",
+    "Contributors": "Madhavan Suneeti; Rudolph Michael; Atit Radhika",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Acquired lipodystrophy in the dermal white adipose tissue (DWAT) is an early phenotype of skin fibrosis, followed by accumulation of extracellular matrix (ECM). Lipodystrophy syndromes are estimated to affect 1 in 20,000 people and are associated with metabolic comorbidities. Recently, we showed that fibrosis-associated lipodystrophy is dependent on sustained Wnt signaling, but the mechanisms remain unclear. Transcriptomic profiling of mature dermal adipocytes in vivo reveal that Wnt activation downregulates the de novolipogenesis (DNL) axis enzymes within 48 hours. We found that protein expression of Fatty Acid Synthase (FASN), a key DNL enzyme, is dependent on sustained Wnt activation in vitro and in vivo. In bleomycin model, human SSc (< 1year of disease) and keloids, FASN is significantly downregulated. Remarkably, FASN inhibition in mouse during reversal from Wnt induced fibrosis impeded recovery of DWAT lipid content and ECM topography. All together, we demonstrate that acquired lipodystrophy in the context of skin fibrosis is mediated by a new role of the Wnt-DNL axis. These findings underscore the importance of this pathway in lipodystrophy and fibrosis, opening new avenues for therapeutic targets in skin fibrosis.",
+    "Overall_Design": "Bulk RNA-Seq profiling of intradermal adipocytes isolated from the floating fraction of mouse dorsal skin collagenase digest at 0-days (control), 2-days and 5-days of beta-catenin/WNT activation in mice",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305616",
+    "Submission_Date": "2026/05/05"
+  },
+  {
     "Accession": "GSE308096",
     "Title": "Research on the Pathogenesis of Systemic Sclerosis",
     "Organism": "Homo sapiens",
