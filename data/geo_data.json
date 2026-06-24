@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE335482",
+    "Title": "Immune-dominated cellular heterogeneity and stromal plasticity in keloid infiltrating and hypercellular zones revealed by single-cell RNA sequencing",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 8,
+    "Platform": "24676",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "Chinese Academy of Medical Sciences and Peking Union Medical College",
+    "Contributors": "Cao Yuchen; Duan Li; Lin Dongxian; Liu Yue; Yang Mingzi",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Background Keloids are aggressive fibroproliferative disorders characterized by a sclerotic core and an actively invading margin, yet the cellular and molecular basis of this spatial heterogeneity remains poorly understood. The roles of immune-stromal crosstalk in driving peripheral invasion have not been systematically dissected. Methods Paired infiltrating and hypercellular zones were collected from anterior chest keloids of four patients. Single‑cell RNA sequencing was performed on 128,678 cells after rigorous quality control. Unbiased clustering, differential gene expression analysis, pseudotime trajectory reconstruction, and cell-cell interaction profiling were applied to compare the landscapes of cell composition, function, and differentiation/development trajectories between the two zones. Results The hypercellular zone was dominated by extracellular matrix‑producing myofibroblasts, whereas the infiltrating zone was enriched in mononuclear phagocytes and endothelial cells, exhibiting a loose collagen architecture permissive for cellular invasion. Infiltrating zone fibroblasts adopted an immunomodulatory, inflammatory cancer‑associated fibroblast‑like phenotype, while macrophages displayed a type I interferon signature and immunoglobulin‑mediated activation, indicating a chronic inflammatory state with features reminiscent of certain autoimmune conditions. Langerhans cells followed a three‑stage developmental trajectory from a stress‑responsive to a terminal NF‑κB‑driven effector state, orchestrating neutrophil and Th17 cell recruitment via chemokine and cytokine networks, with significant enrichment of the IL‑17 signaling pathway. Endothelial cells at the margin underwent endothelial‑to‑mesenchymal transition, and Schwann cells exhibited phenotypic plasticity, mirroring aggressive tissue remodeling. Conclusions In the context of this spatially resolved analysis, this study redefines the keloid margin as an immunology‑dominated niche characterized by profound cellular and spatial heterogeneity that is associated with features that could drive peripheral invasion. These findings suggest a shift of the paradigm of keloid pathogenesis from a fibroblast‑centric model to an immune‑driven integrated landscape in this cohort and provide a theoretical foundation for keloid precision therapies and zone‑specific biomarkers for treatment response and disease monitoring.",
+    "Overall_Design": "Paired infiltrating and hypercellular zones were collected from anterior chest keloids of four female patients (aged 18-60). Single-cell RNA sequencing was performed using the Singleron Matrix Single Cell Processing System. Transcriptional profiles of the two zones were compared to dissect the spatial cellular heterogeneity and immune microenvironment.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE335482",
+    "Submission_Date": "2026/06/23"
+  },
+  {
     "Accession": "GSE317056",
     "Title": "Sex disparity in systemic sclerosis-associated pulmonary fibrosis.",
     "Organism": "Homo sapiens",
