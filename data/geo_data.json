@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE325569",
+    "Title": "Transcription analysis of primary dermal fibroblasts with different genotypes for CTGF rs9399005 SNP after irradiation or sham irradiation",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 51,
+    "Platform": "28038",
+    "Country": "Germany",
+    "Lab": "Laboratory for Cellular and Molecular Radiation Oncology",
+    "Institute": "Medical Faculty Mannheim, Heidelberg University",
+    "Contributors": "Sami Ahmad; Sticht Carsten; Veldwijk Marlon; Herskind Carsten",
+    "PubMed_IDs": "42285996",
+    "Supplementary_Size": "N/A",
+    "Summary": "A predictive model for skin fibrosis following radiotherapy in breast cancer patients was previously developed, and the rs9399005 non-coding candidate SNP associated with reduced risk was identified within a high-risk subgroup, determined by the functional RILA assay. The SNP was located downstream of the CTGF gene, but its biological function is poorly understood. The purpose of this work was to investigate its functional impact at the transcriptional level. Patient-derived dermal fibroblasts, previously genotyped for the candidate SNP, were obtained from a local biobank. Initially, six fibroblast strains for each major homozygote (CC), heterozygote (CT), and minor homozygote (TT) genotype were cultured to passage 6 and exposed to 4 Gy of irradiation or sham irradiation, but one TT fibroblast was excluded from the study due to poor quality and slow growth. Total cellular RNA was collected before irradiation (day-0) and on day-2 post-treatment for gene expression quantification using RNA-seq. After data trimming with Trimmomatic, pseudo- alignment with Kallisto and data normalization (voom function, limma), differential gene expression (DGE) analysis was carried out using the limma package (FDR<0.05). Pathway enrichment analysis was conducted using the ReactomePA package in R. Results: Few differentially expressed genes (DEGs) were identified at baseline (day-0) between the genotypes (TT vs CC: n=5; TT vs CT: n=2; CT vs CC: n=1). Transcriptome changes on day-2 were assessed by comparing irradiated and untreated samples of each genotype to the untreated CC genotype at baseline (day-0) as a common control. Significant differences in the number of DEGs were observed between fibroblasts of different genotypes (p<0.001, Chi-squared test). The highest number of DEGs on day-2 was found in CC fibroblasts (0 Gy: n=2372, 4 Gy: n=9576), while fibroblasts with the TT genotype showed significantly fewer DEGs (0 Gy: n=523, 4 Gy: n=3538), with CT fibroblasts showing intermediate levels (0 Gy: n=788, 4 Gy: n=5471). Pathway analysis after irradiation revealed similar expected responses across all genotypes, consistent with previous reports. However, pathways related to cell cycle regulation, metabolism, and signal transduction were underrepresented in TT fibroblasts at baseline but overrepresented on day-2 post-irradiation, compared to CC fibroblasts. Distinct genes were leading these under- and over-representations. A significant influence of the candidate SNP on fibroblast responses to irradiation was demonstrated, primarily through the modulation of pathways related to growth and stress regulation. Personalized approaches to managing fibrosis risk may be guided by these findings.",
+    "Overall_Design": "Patient-derived dermal fibroblasts, previously genotyped for the rs9399005 SNP, were obtained from a local biobank. The experiment was performed in two batches. Batch-1 contained six fibroblast strains with the TT genotype and three fibroblast strains from each CC and CT genotypes (total number of strains n=12). However, one TT fibroblast was excluded from the study due to poor quality and slow growth. Batch-2 contained three fibroblast strains from each CC and CT genotypes (total number of strains n=6). The fibroblasts were cultured to passage 6 and exposed to 4 Gy of irradiation or sham irradiation, but total cellular RNA was collected before irradiation (day-0) and on day-2 post-treatment. After data trimming with Trimmomatic, pseudo- alignment with Kallisto, and data normalization (voom function, limma), differential gene expression (DGE) analysis was carried out using the limma package (FDR<0.05). The batch effect was included as a covariate in the design matrix model.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE325569",
+    "Submission_Date": "2026/06/25"
+  },
+  {
     "Accession": "GSE335482",
     "Title": "Immune-dominated cellular heterogeneity and stromal plasticity in keloid infiltrating and hypercellular zones revealed by single-cell RNA sequencing",
     "Organism": "Homo sapiens",
