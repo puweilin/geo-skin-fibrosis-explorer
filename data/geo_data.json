@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE336612",
+    "Title": "Effects of bile acid exposure on gene expression in oesophageal epithelial cells",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 6,
+    "Platform": "9052",
+    "Country": "United Kingdom",
+    "Lab": "DEL GALDO",
+    "Institute": "UNIVERSITY OF LEEDS",
+    "Contributors": "Zahed Mohajerani Safoura; Altaie Ala; Minerba Marco; Man Suen Kin; J Black Christopher; Bissell Lesley-Anne; Hinchcliff Monique; Ladbury John; Riobo-Del Galdo Natalia; Ross Rebecca; Del Galdo Francesco",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Gastro-oesophageal reflux disease is highly prevalent in systemic sclerosis (SSc) and may contribute to oesophageal tissue damage. To investigate the molecular effects of reflux-associated injury, human oesophageal epithelial cells (Het1A) were exposed to bile acids and analysed by RNA sequencing. Chronic bile acid exposure induced transcriptional changes associated with innate immune activation, type I interferon signalling, TGF-β responses, epithelial–mesenchymal transition (EMT), oxidative stress, and mitochondrial dysfunction. Differential gene expression profiles were compared with publicly available SSc oesophageal transcriptomic datasets to identify shared disease-associated pathways. These data provide insight into the molecular mechanisms by which bile acid-induced epithelial injury may contribute to oesophageal pathology in systemic sclerosis.",
+    "Overall_Design": "Het1A oesophageal epithelial cells were exposed daily for 10 minutes to acidified medium (pH 4.0) containing 100 Î¼M mixed bile acids for 5 days. Control cells received vehicle treatment. RNA was extracted 24 hours after the final exposure and analysed by RNA sequencing.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE336612",
+    "Submission_Date": "2026/06/30"
+  },
+  {
     "Accession": "GSE325569",
     "Title": "Transcription analysis of primary dermal fibroblasts with different genotypes for CTGF rs9399005 SNP after irradiation or sham irradiation",
     "Organism": "Homo sapiens",
