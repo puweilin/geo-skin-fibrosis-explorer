@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE310029",
+    "Title": "Targeting Bruton tyrosine kinase with acalabrutinib attenuates murine sclerodermatous chronic graft versus host disease",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 16,
+    "Platform": "24247",
+    "Country": "USA",
+    "Lab": "Joan C Edwards School of Medicine",
+    "Institute": "Marshall University",
+    "Contributors": "Raguraman Vasantharaja; Mysinger Miranda; Verma Mohit; Mohiyuddin Shanid; Jabbour Nashwan; Kesler Melissa; Joshi Trupti; Palaniyandi Senthilnathan; Hildebrandt Gerhard",
+    "PubMed_IDs": "42367798",
+    "Supplementary_Size": "N/A",
+    "Summary": "Allogeneic hematopoietic stem cell transplantation (allo-HSCT) is considered the only curative option for certain malignant hematopoietic disorders, yet its benefits are limited by the developmentof graft-versus-host disease (GVHD). Chronic GVHD (cGVHD) is often characterized by chronic inflammation and fibrosis, propagated by alloreactive donor B- and T-cell involvement. Bruton tyrosine kinase (BTK) is the downstream effector in the B-cell receptor signaling pathway and further has a crucial role in mast cell activation, both of which are critical in the pathogenesis of cGVHD. Selective inhibition of BTK may be beneficial in ameliorating cGVHD pathogenesis. In this study, we evaluated the efficiency of acalabrutinib, a highly selective Bruton tyrosine kinase inhibitor using a murine sclerodermatous cGVHD model. Recipient BALB/c mice received total body irradiation (800cGy), followed by infusion of bone marrow and splenocytes of either syngeneic (BALB/c) or allogeneic (B10.D2) mice and were subsequently treated with acalabrutinib or control from starting three weeks after HSCT until end of week 8. Mice were monitored for clinical signs of GVHD, survival, organ pathology of skin and other organs, and inflammatory mediator expression in serum and skin. Acalabrutinib treatment showed better survival, improved clinical cGVHD scores, and reduced skin pathology. Significant reductions in dermal thickness and skin fibrosis, and mast cell numbers in the acalabrutinib-treated group. In vitro, experiments on mast cell activation show increased pro-inflammatory chemokines CCL2, CCL3, and CCL4 were effectively inhibited by acalabrutinib in a dose-dependent manner. Chemokine analysis from serum samples revealed significant differences in CXCL10, CXCL13, and CCL22 levels compared to the allogeneic control group. Furthermore, the acalabrutinib treatment showed decreased B220+ cells and CD3 infiltration in the skin. RNA-seq analysis of skin identified genes associated with keratinization were downregulated with acalabrutinib treatment. Our results demonstrate that specific inhibition of BTK with acalabrutinib has a potentially beneficial role in ameliorating cGVHD and warrants further investigation in patients with cGVHD.",
+    "Overall_Design": "RNA-seq samples were obtained from skin of BALB/cJ mice (n=3-5/cohort) following treated orally using oral gavage with acalabrutinib 25 mg/kg or placebo from week 3 to week 8. Mice were monitored for survival, scored weekly for clinical symptomology of GVHD, and euthanized on week 8 for collection of skin and other organs and stored in RNA later for further analysis.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE310029",
+    "Submission_Date": "2026/07/01"
+  },
+  {
     "Accession": "GSE336612",
     "Title": "Effects of bile acid exposure on gene expression in oesophageal epithelial cells",
     "Organism": "Homo sapiens",
