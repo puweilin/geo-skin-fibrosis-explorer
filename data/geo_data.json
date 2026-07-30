@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE325500",
+    "Title": "α1-adrenergic signaling regulates fibroblast activation in human pulmonary fibrosis",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 16,
+    "Platform": "24676",
+    "Country": "USA",
+    "Lab": "",
+    "Institute": "Yale University",
+    "Contributors": "Ishikawa Genta; Shao Shuai",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Idiopathic pulmonary fibrosis (IPF) and systemic sclerosis–associated interstitial lung disease (SSc-ILD) are progressive fibrotic disorders characterized by aberrant activation of lung fibroblasts. Emerging evidence suggests that adrenergic signaling regulates fibroblast function and contributes to fibrogenesis. To define the transcriptional programs governed by α1-adrenergic signaling in human lung fibroblasts, we performed bulk RNA sequencing on primary lung fibroblasts derived from patients with IPF and SSc-ILD. Primary human lung fibroblasts were treated with the α1-adrenergic receptor antagonist terazosin or vehicle control, and Poly(A) RNA was subjected to high-throughput sequencing. Comparative transcriptomic analyses were conducted to identify differentially expressed genes and pathways associated with α1-adrenergic blockade. We generated paired-end RNA sequencing data from 16 samples, including fibroblasts from IPF (biological n=4) and SSc-ILD (biological n=4) under two conditions (with or without terazosin treatment), enabling systematic characterization of both shared and disease-specific transcriptional responses. These data provide a resource for elucidating the molecular mechanisms linking adrenergic signaling to fibroblast activation and fibrosis, and may inform the development of targeted therapeutic strategies for fibrotic lung diseases.",
+    "Overall_Design": "Bulk RNA sequencing of primary human lung fibroblasts derived from patients with IPF and SSc-ILD treated with the Î±1-adrenergic receptor antagonist terazosin or vehicle control for 24 hours.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE325500",
+    "Submission_Date": "2026/07/28"
+  },
+  {
     "Accession": "GSE310029",
     "Title": "Targeting Bruton tyrosine kinase with acalabrutinib attenuates murine sclerodermatous chronic graft versus host disease",
     "Organism": "Mus musculus",
