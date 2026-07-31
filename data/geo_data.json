@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE332819",
+    "Title": "Longitudinal CITE-seq analysis in juvenile-onset systemic sclerosis monocytes following autologous stem cell transplant",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 15,
+    "Platform": "24676",
+    "Country": "USA",
+    "Lab": "",
+    "Institute": "University of Pittsburgh",
+    "Contributors": "Elrod Julia; Hutchins Theresa; Sanyal Anwesha; Townes William; Torok Kathryn",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Juvenile systemic sclerosis (jSSc) is a rare and severe autoimmune disease marked by skin fibrosis and damage to multiple organ systems. This study implements autologous stem cell transplantation (ASCT), a newly available treatment protocol which aims to restore immune homeostasis, in this case amongst jSSc patients. Here, we analyze peripheral blood mononuclear cells (PBMCs) from 3 jSSc patients prior to ASCT and 6, 12, and 24 months post treatment. These samples were then sequenced and tagged with antibodies using cellular indexing of transcriptomes and epitopes (CITE-seq). To analyze these samples and how they change over time, this study implements a newly designed generalized linear model. It was adopted from an established method with a coefficient for time since ASCT to identify numerous genes and pathways with downward longitudinal trends, many of which have previously been implicated in SSc development, and may help further understand disease pathogenesis. Our longitudinal differential gene expression analysis focused mainly on monocytes, which demonstrated strong downwards trends in multiple pathogenic genes/pathways. Specifically, nuclear factor-B (NFB)-driven inflammatory signaling was increased in jSSc monocytes at baseline compared to healthy controls, but decreased to match healthy monocyte levels over time following ASCT. We also note a sharp longitudinal reduction in jSSc monocyte expression of SERPINE1, a gene which has previously been implicated in SSc pathogenesis.This workflow describes immune reprogramming in three jSSc patients who underwent ASCT and introduces a statistically-justified framework for longitudinal single-cell modeling.",
+    "Overall_Design": "CITE-seq was performed on three sets of blood samples from the patients undergoing ASCT and age- and sex- matched controls. 1.5 million cells from each patient sample (baseline before ASCT, 6 months post ASCT, 12 months post ASCT, 24 months post ASCT) with a 95% viability were first diluted and subjected to Fc receptor blocking by adding Human TruStain FcX to cells suspended in Cell Staining Buffer according to the manufacturerâs protocol. All four samples from each subject were stained with TotalSeqâ¢-C Human Universal Cocktail, V1.0 (BioLegend, Cat No.â¯399905) and four individual hashtags (TotalSeq-C0251 antihuman hashtag 1: Cat # 394661, TotalSeq-C0252 antihuman hashtag 2: Cat # 394663, TotalSeq-C0253 antihuman hashtag 3: Cat # 394665, and TotalSeq-C0254 antihuman hashtag 4: Cat # 394667) in a single step. Stained samples were then washed three times to remove unbound antibodies, and then pooled together to load onto one single-cell sequencing reaction per subject. In other words, for each subject, all four timepoints were run on the same single-cell reaction. The entire process was carried out using the manufacturerâs protocol. The cDNA amplification step was carried out first, followed by SPRI selection to separate mRNA-derived and antibody-oligo-derived cDNAs. The mRNA-derived cDNA was then subjected to standard 10x genomics protocol for cDNA sequencing and library preparation all according to 10x Chromium Next GEM Single Cell 3' Kit v3.1, 4 rxns protocol (product number 1000269). These premade 10x 5-prime single-cell transcriptome libraries were then shipped off to Novogene (U.S., Sacramento Sequencing Center ,CA), where they were sequenced. FASTQ files were downloaded from their portal.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE332819",
+    "Submission_Date": "2026/07/30"
+  },
+  {
     "Accession": "GSE325500",
     "Title": "α1-adrenergic signaling regulates fibroblast activation in human pulmonary fibrosis",
     "Organism": "Homo sapiens",
