@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE303181",
+    "Title": "STC-1 Attenuates Scar Formation via PI3K/AKT Pathway Activation and Immune Modulation",
+    "Organism": "Mus musculus",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 12,
+    "Platform": "30215",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "Sir Run Run Shaw Hospital, Zhejiang University School of Medicine",
+    "Contributors": "Lin Xiaoying; Tan Weiqiang",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Objective: To investigate the role of Stanniocalcin-1 (STC-1) in scar formation and elucidate its underlying mechanisms in regulating fibroblast activity, immune microenvironment, oxidative stress, and PI3K/AKT signaling. Approach: A combination of clinical sample analysis, in vitro experiments using NIH-3T3 fibroblasts and macrophage co-culture models, RNA sequencing, and in vivo full-thickness wound mouse models were employed. The effects of recombinant human STC-1 and STC-1 overexpression were evaluated on fibroblast function, extracellular matrix remodeling, inflammatory response, and scar formation. The impact on PI3K/AKT signaling was assessed by Western blot analysis. Results: STC-1 was specifically overexpressed in keloid tissues, primarily in fibroblasts, and its expression was upregulated by hypoxia in a HIF-1α–dependent manner. In vitro, STC-1 suppressed fibroblast proliferation, migration, and LPS-induced inflammation, while alleviating oxidative stress and mitochondrial dysfunction. STC-1 also promoted angiogenesis and induced M2 macrophage polarization. In vivo, STC-1 reduced scar size, improved collagen organization, modulated immune cell infiltration by activating the PI3K/AKT signaling pathway. Innovation: This study identifies STC-1 as a novel immunoregulatory and anti-fibrotic factor in scar pathogenesis. It highlights that STC-1 not only affects fibroblast function but also remodels the immune microenvironment through PI3K/AKT activation. Conclusion: STC-1 exerts anti-fibrotic, anti-inflammatory, antioxidant, and immunomodulatory effects during scar formation by activating the PI3K/AKT signaling pathway, highlighting its therapeutic potential in the treatment of pathological scars.",
+    "Overall_Design": "Gene expression profiling analysis of RNA-seq data from NIH-3T3 fibroblasts treated with STC-1. Cells were treated with either PBS or 100â¯ng/mL recombinant STC-1 protein, or TGF-Î²1-treated (10 ng/mL), and co-treatment with STC-1 and TGF-Î²1 groups for 24 hours. Each group consisted of three biological replicates.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE303181",
+    "Submission_Date": "2026/08/01"
+  },
+  {
     "Accession": "GSE332819",
     "Title": "Longitudinal CITE-seq analysis in juvenile-onset systemic sclerosis monocytes following autologous stem cell transplant",
     "Organism": "Homo sapiens",
