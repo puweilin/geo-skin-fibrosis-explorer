@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE341487",
+    "Title": "Single-cell transcriptional analysis of irradiated skin reveals changes in fibroblast subpopulations and variability in caveolin expression",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 2,
+    "Platform": "20301",
+    "Country": "USA",
+    "Lab": "",
+    "Institute": "Stanford University",
+    "Contributors": "Januszyk Michael; Kameni Lionel",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Background Radiation-induced fibrosis (RIF) is an important late complication of radiation therapy, and the resulting damaging effects of RIF can significantly impact reconstructive outcomes. There is currently a paucity of effective treatment options available, likely due to the continuing knowledge gap surrounding the cellular mechanisms involved. In this study, detailed analyses of irradiated and non-irradiated human skin samples were performed incorporating histological and single-cell transcriptional analysis to identify novel features guiding development of skin fibrosis following radiation injury. Methods Paired irradiated and contralateral non-irradiated skin samples were obtained from six female patients undergoing post-oncologic breast reconstruction. Skin samples underwent histological evaluation, immunohistochemistry, and biomechanical testing. Single-cell RNA sequencing was performed using the 10X single cell platform. Cells were separated into clusters using Seurat in R. The SingleR classifier was applied to ascribe cell type identities to each cluster. Differentially expressed genes characteristic to each cluster were then determined using non-parametric testing. Results Comparing irradiated and non-irradiated skin, epidermal atrophy, dermal thickening, and evidence of thick, disorganized collagen deposition within the extracellular matrix of irradiated skin were readily appreciated on histology. These histologic features were associated with stiffness that was higher in irradiated skin. Single-cell RNA sequencing revealed six predominant cell types. Focusing on fibroblasts/stromal lineage cells, five distinct transcriptional clusters (Clusters 0–4) were identified. Interestingly, while all clusters were noted to express Cav1, Cluster 2 was the only one to also express Cav2. Immunohistochemistry demonstrated increased expression of Cav2 in irradiated skin, whereas Cav1 was more readily identified in non-irradiated skin, suggesting Cav1 and Cav2 may act antagonistically to modulate fibrotic cellular responses. Conclusion In response to radiation therapy, specific changes to fibroblast subpopulations and enhanced Cav2 expression may contribute to fibrosis. Altogether, this study introduces a novel pathway of caveolin involvement which may contribute to fibrotic development following radiation injury.",
+    "Overall_Design": "scRNA-seq of unsorted cells from human radiated and non-radiated skin samples",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE341487",
+    "Submission_Date": "2026/08/04"
+  },
+  {
     "Accession": "GSE303181",
     "Title": "STC-1 Attenuates Scar Formation via PI3K/AKT Pathway Activation and Immune Modulation",
     "Organism": "Mus musculus",
