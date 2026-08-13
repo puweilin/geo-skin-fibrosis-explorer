@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE343389",
+    "Title": "Transcriptomic profiling of human keloid fibroblasts after mitochondria transplantation",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 6,
+    "Platform": "24676",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "Plastic Surgery Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College",
+    "Contributors": "",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "This study performed bulk RNA sequencing to characterize the transcriptomic changes induced by mitochondria transplantation in human keloid fibroblasts (KFs). Primary human keloid fibroblasts were treated with adipose-derived stem cell-derived mitochondria, and global gene expression profiles were compared between untreated and mitochondria-transplanted KFs",
+    "Overall_Design": "Primary human keloid fibroblasts were divided into an untreated control group (KF) and an adiposeâderived stem cellâderived mitochondriaâtreated group (mitoKF). For the mitoKF group, cells were treated with adiposeâstemâcellâderived mitochondria at a dose of 25â¯Î¼g mitochondrial protein per 1â¯Ãâ¯10âµ cells for 24â¯h. Total RNA was extracted from keloid fibroblasts with or without mitochondria treatment and subjected to bulk RNA sequencing. Differentially expressed genes and enriched biological pathways were analyzed to identify transcriptional changes induced by mitochondria treatment.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE343389",
+    "Submission_Date": "2026/08/11"
+  },
+  {
     "Accession": "GSE341487",
     "Title": "Single-cell transcriptional analysis of irradiated skin reveals changes in fibroblast subpopulations and variability in caveolin expression",
     "Organism": "Homo sapiens",
