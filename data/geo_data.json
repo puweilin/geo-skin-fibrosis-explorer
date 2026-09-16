@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE315810",
+    "Title": "CD147 drives keloid formation by promoting fibroblast proliferation via the CENPF signaling pathway",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 6,
+    "Platform": "34284",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "the First Affiliated Hospital of Xiâan Jiaotong University",
+    "Contributors": "Diao Jian-Sheng; Shu Mao-Guo",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Keloids are benign dermal tumors, and keloid fibroblasts (KFs) play a critical role in their formation through hyperproliferation. However, the mechanism underlying this excessive fibroblast growth in keloids remains elusive. Here, we demonstrate that CD147 is upregulated in KFs and promotes their pathological activities, while its inhibition reverses these abnormalities. RNA sequencing (RNA-seq) analysis revealed that CD147 played an important regulatory role in controlling the cell cycle of KFs, and centromere protein F (CENPF) expression was substantially downregulated following CD147 inhibition. Furthermore, CENPF knockdown attenuated the proliferation-inducing effects of CD147 in KFs, potentially promoting cell apoptosis via the p53 signaling pathway. These findings uncover the CD147-CENPF signaling pathway in keloid pathogenesis, suggesting targeting this pathway as a promising therapeutic strategy.",
+    "Overall_Design": "To further explore the signaling pathways mediated by CD147 in KFs, we performed RNA-seq to identify downstream genes affected by CD147 inhibition via AC-73. KFs were collected from both the control group (n = 3) and the AC-73 treatment group (n = 3) after 24 hours of treatment with 20 Î¼M AC-73.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE315810",
+    "Submission_Date": "2026/09/15"
+  },
+  {
     "Accession": "GSE343389",
     "Title": "Transcriptomic profiling of human keloid fibroblasts after mitochondria transplantation",
     "Organism": "Homo sapiens",
