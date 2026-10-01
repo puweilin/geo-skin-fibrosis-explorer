@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE308055",
+    "Title": "Integrating phenomics and transcriptomics to identify clinically meaningful endotypes of non-communicable inflammatory skin diseases",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 727,
+    "Platform": "20301",
+    "Country": "Germany",
+    "Lab": "",
+    "Institute": "University of Freiburg",
+    "Contributors": "Garzorz-Stark Natalie; Hillig Christina; Meinel Martin; Mishra Jigyansa; Jargosch Manja; Hostench Xavier; Walzthoeni Thomas; Eyerich Stefanie; Menden Michael; Eyerich Kilian",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Endotyping of inflammatory skin diseases with machine learning methods",
+    "Overall_Design": "Dataset containing 727 bulk RNA-sequencing samples of lesional and non-lesional skin biopsies taken from 381 patients diagnoses with 21 skin diseases. RNA from skin biopsies was isolated using the QIAzol Lysis Reagent (Qiagen) and miRNeasy Mini Kit (Qiagen) according to manufacturerâs protocol. RNASeq libraries were generated using the TruSeq Stranded Total RNA Kit (Illumina) according to manufacturerâs high sample protocol. Finally, samples were sequenced on an Illumina HiSeq4000 as paired-end with a read length of 2x 150 bp and an average output of 40 Mio reads per sample and end.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE308055",
+    "Submission_Date": "2026/09/30"
+  },
+  {
     "Accession": "GSE346025",
     "Title": "Activating rare variants in Protein kinase D2 (PRKD2) in two families with Systemic sclerosis",
     "Organism": "Homo sapiens",
