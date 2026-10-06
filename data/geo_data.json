@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE307380",
+    "Title": "Human blood vessel organoids recapitulate key mechanisms of transition from vasculopathy to fibrosis in systemic sclerosis",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 46,
+    "Platform": "24676",
+    "Country": "Germany",
+    "Lab": "",
+    "Institute": "University Hospital DÃ¼sseldorf, Medical Faculty of Heinrich Heine University",
+    "Contributors": "Xiao Yanhua; Hong Xuezhi; zhi Langxian; Distler JÃ¶rg H.W; Matei Alexandru-Emil",
+    "PubMed_IDs": "41866288",
+    "Supplementary_Size": "N/A",
+    "Summary": "Systemic sclerosis (SSc) is an autoimmune disease that transitions from vasculopathy as an initiating pathogenic event to tissue fibrosis. The mechanisms of these transitions remain, however, poorly understood, mainly because complex multicellular human models of SSc vasculopathy are lacking. Here we characterized blood vessel organoids (BVOs) as a novel model system of vasculopathy in SSc. We demonstrate that exposure of SSc-BVOs to SSc serum triggers changes on epigenetic, mRNA and protein levels and recapitulates key pathogenic features of SSc vasculopathy, with shifts from angiogenic endothelial cell subsets to those undergoing endothelial-to-mesenchymal transition, loss of endothelial cells-pericytes interactions and profound angiogenic defects. The genetic predisposition of SSc donors and serum IgGs are required for the deleterious effects of SSc serum. We further validate SSc-BVOs as a human model system to evaluate candidate therapies targeting SSc microvasculopathy and use this system to provide evidence that γ-secretase inhibition is a potential therapeutic approach.",
+    "Overall_Design": "Healthy or SSc iPSCs derived BVOs, treated with healthy serum,  and Active SSc patients with active digital ulcers  (SSc_aDU serum), respective. Endothelial cells (ECs) were isolated from whole organoids with anti-CD31 beads. Whole BVOs and isolated ECs from different groups were sent for RNA sequence detection. Whole BVOs were also sent for ATAC sequence detection",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307380",
+    "Submission_Date": "2026/10/05"
+  },
+  {
     "Accession": "GSE325137",
     "Title": "Type II IL-4 receptor complex drives mesenchymal fibroblast activation in keloids via STAT6 signaling",
     "Organism": "Homo sapiens",
