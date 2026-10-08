@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE325896",
+    "Title": "Effect of Bazedoxifene treatment on gene expression of human keloid fibroblasts",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 6,
+    "Platform": "24676",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "Shanghai Ninth People's Hospital",
+    "Contributors": "Wang Zixin",
+    "PubMed_IDs": "42807860",
+    "Supplementary_Size": "N/A",
+    "Summary": "Pathological scarring, including keloids, is characterized by excessive extracellular matrix deposition and persistent fibroblast activation. The gp130 signaling axis plays a critical role in fibrotic remodeling. We investigated the transcriptional effects of Bazedoxifene, a clinically approved selective estrogen receptor modulator and gp130 inhibitor, in primary human keloid fibroblasts. Cells were treated with Bazedoxifene (5uM) or vehicle control (DMSO) for 24 hours, followed by bulk RNA sequencing. Differential gene expression analysis revealed that Bazedoxifene significantly downregulated multiple fibrosis-associated pathways, including extracellular matrix organization, collagen synthesis, and fibroblast activation-related processes. These findings provide transcriptomic evidence supporting the anti-fibrotic effects of Bazedoxifene and highlight gp130 signaling as a potential therapeutic target in pathological skin fibrosis.",
+    "Overall_Design": "Primary human keloid-derived fibroblasts were cultured and treated with Bazedoxifene (5uM) or vehicle (DMSO) for 24 hours. Each condition included three biological replicates. Total RNA was extracted and subjected to high-throughput RNA sequencing. Gene expression profiles were compared between treatment and control groups to identify differentially expressed genes and affected pathways.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE325896",
+    "Submission_Date": "2026/10/07"
+  },
+  {
     "Accession": "GSE307380",
     "Title": "Human blood vessel organoids recapitulate key mechanisms of transition from vasculopathy to fibrosis in systemic sclerosis",
     "Organism": "Homo sapiens",
