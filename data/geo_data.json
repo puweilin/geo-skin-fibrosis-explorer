@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE321887",
+    "Title": "Dysregulation of mechanosensing signaling in monocytes of patients with systemic sclerosis is associated with skin inflammation",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 24,
+    "Platform": "24676",
+    "Country": "USA",
+    "Lab": "",
+    "Institute": "Hospital for Special Surgery",
+    "Contributors": "Vidyanath Chaudhary; David Oliver; Franck Barrat",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Systemic sclerosis (SSc) is a life threatening autoimmune disease characterized by chronic inflammation and progressive fibrosis of the skin and internal organs. Fibrosis is driven in part by infiltration of immune cells, including monocytes that become chronically activated within fibrotic tissue. Although monocytes infiltrate the skin and contribute to tissue repair and fibrosis, how the mechanical properties of fibrotic skin regulate their function remains poorly understood. Here, we demonstrate that increased skin stiffness directly controls human monocyte activation through mechanosensing. Re analysis of single cell RNA sequencing datasets revealed that skin infiltrating monocytes exhibit heightened inflammatory signatures compared to circulating counterparts, with further amplification in SSc. Using collagen coated hydrogels modeling physiologic and fibrotic stiffness, we show that increased stiffness induces secretion of IL 1β, TNF, and IL 6, enhances CD86 expression, and broadly upregulates inflammatory transcriptional programs while suppressing anti inflammatory pathways. Mechanistically, stiffness driven activation was associated with chromatin remodeling and epigenetic reprogramming, identifying the transcription factor SP1 as a central regulator. Genetic knockdown or pharmacologic inhibition of SP1 significantly attenuated stiffness induced inflammatory gene expression, whereas canonical YAP TAZ TEAD mechanotransduction pathways were not detected in human monocytes. Importantly, monocytes from patients with SSc displayed displaced transcriptional trajectories and an exaggerated inflammatory response to high stiffness, accompanied by reduced expression of wound healing and antifibrotic programs. Together, these findings identify SP1 dependent mechanosensing as a previously unrecognized pathway controlling human monocyte activation and provide mechanistic insight into how tissue stiffness sustains inflammation in SSc.",
+    "Overall_Design": "***************************************************************",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE321887",
+    "Submission_Date": "2026/10/15"
+  },
+  {
     "Accession": "GSE325896",
     "Title": "Effect of Bazedoxifene treatment on gene expression of human keloid fibroblasts",
     "Organism": "Homo sapiens",
