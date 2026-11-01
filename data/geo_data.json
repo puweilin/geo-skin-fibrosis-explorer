@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE299141",
+    "Title": "scRNA-seq of skin and PBMC samples of systemic sclerosis patients and healthy controls",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 20,
+    "Platform": "24676",
+    "Country": "China",
+    "Lab": "",
+    "Institute": "Peking University Third Hospital",
+    "Contributors": "Guo Wei; Li Zhaohua; Xu Dan; Li Ting; Fang Dan; Zhang Xiaoying; Jin Yuebo; Xing Dan; Chen Zhaoyu; Yuan Xiandun; Wang Zhixin; Dong Chen; Xu Huji; Varga John; Wang Jinlin; Ge Jing; Mu Rong",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Skin and blood samples from systemic sclerosis (SSc) patients and healthy donors were analyzed using single-cell transcriptomics (scRNA-seq). CCL19+ fibroblast was upregulated in the dermis of patients with SSc, and exhibited high expression of immuno-regulatory genes, including CCL19. CCL19 expression correlated with the severity of dermal fibrosis in SSc. The most significant ligand-receptor interaction from CCL19+ fibroblast to T cells in SSc skin was CCL19-CCR7. Furthermore, CCR7+ T cells in the fibrotic skin, particularly CCR7+CD8+ T cells, displayed enhanced stemness and cytotoxicity, actively interacting with extracellular matrix (ECM)-producing fibroblasts in SSc.",
+    "Overall_Design": "Skin and blood samples from 7 patients with SSc and 4 healthy donors collected and analyzed using single-cell transcriptomics (scRNA-seq).",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299141",
+    "Submission_Date": "2026/10/31"
+  },
+  {
     "Accession": "GSE321887",
     "Title": "Dysregulation of mechanosensing signaling in monocytes of patients with systemic sclerosis is associated with skin inflammation",
     "Organism": "Homo sapiens",
