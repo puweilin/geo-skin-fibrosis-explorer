@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE338085",
+    "Title": "STAT3 Signaling is Central for Chemokine Production in E2-Induced Dermal Inflammation",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 6,
+    "Platform": "34284",
+    "Country": "USA",
+    "Lab": "Rheumatology",
+    "Institute": "Medical University of South Carolina",
+    "Contributors": "ANCONA Nicolas; Li Yucui; RENAUD Ludivine; FIERKENS Roselyn; KEAR Kaelyn; PINCKNEY Kaitlyn; BAKER-FROST Deanna",
+    "PubMed_IDs": "43027708",
+    "Supplementary_Size": "N/A",
+    "Summary": "Background: Scleroderma (SSc) is an autoimmune disease characterized by dermal inflammation and fibrosis. Patients with SSc have high systemic levels of the estrogen estradiol (E2) compared to age-matched controls and worse mortality. E2 also contributes to dermal fibrosis in SSc, but its role in dermal inflammation is undefined. Using bulk RNA sequencing (RNA seq), we investigated inflammatory pathways in E2-treated dermal tissue. Methods: Total RNA from human skin tissue treated with ethanol (ETOH, vehicle) or E2 for 48 hours was isolated for bulk RNA seq. Using DEseq2 and iPathwayGuide, statistically significant inflammatory genes and pathways were identified. Selected genes and proteins were validated by qPCR and ELISA, respectively. For mechanistic studies, primary human skin dermal fibroblasts from SSc patients and human dermal microvascular endothelial cells (HDMECs) treated with STAT3, aromatase, or selective estrogen reuptake modulator (SERM) inhibitors, were utilized. Statistical significance was defined as p< 0.05. Results: We confirmed that cytokines/chemokines are significantly increased in E2 treated skin tissue compared to vehicle. A positive correlation between E2-induced IL-6 and CXCL8 steady state transcript levels was detected in E2-treated human skin tissue. Inhibiting IL-6/STAT3 signaling prior to E2 stimulation prevented the induction of CXCL2, CXCL3, CXCL8 and CCL20 transcripts ex vivo compared to aromatase inhibition. E2 inhibition with anastrozole in SSc dermal fibroblasts significantly reduced CXCL3 and CXCL8 transcripts, but not CXCL2 or CCL20 transcripts. Yet, treating SSc dermal fibroblasts with a SERM significantly decreased CXCL2, CXCL3 and CXCL8, and CCL20 steady state transcripts. Likewise, E2-treated HDMECs decreased NO but increased ICAM and VCAM production, which was reversed upon treatment with a SERM. Conclusion: E2 increases cytokines/chemokines in dermal tissue and induces endothelial cell dysfunction in HDMECs. Therefore, E2 augments highly active dermal inflammatory pathways in SSc. IL-6/STAT3 signaling is important in the E2-induced dermal inflammatory response. Our data suggests that while E2 production is responsible, in part, for increased CXCL2, CXCL3 and CXCL8, and CCL20 steady state transcripts in SSc, combined estrogen signaling and IL-6 inhibition may be an attractive therapeutic approach.",
+    "Overall_Design": "Human skin tissue treated with the estrogen estradiol (E2) or vehicle ethanol for 48 hours",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE338085",
+    "Submission_Date": "2026/11/18"
+  },
+  {
     "Accession": "GSE299141",
     "Title": "scRNA-seq of skin and PBMC samples of systemic sclerosis patients and healthy controls",
     "Organism": "Homo sapiens",
