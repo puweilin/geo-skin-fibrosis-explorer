@@ -1,5 +1,25 @@
 [
   {
+    "Accession": "GSE330075",
+    "Title": "A transcriptome atlas of inflammatory skin diseases and disease stratification on cytokine signatures",
+    "Organism": "Homo sapiens",
+    "Data_Type": "bulk RNA-seq",
+    "Sample_Count": 719,
+    "Platform": "24676",
+    "Country": "USA",
+    "Lab": "",
+    "Institute": "Michigan Medicine",
+    "Contributors": "Gudjonsson Johann; Tsoi Lam; Benjamin Klein; Poulami Dey",
+    "PubMed_IDs": "",
+    "Supplementary_Size": "N/A",
+    "Summary": "Inflammatory skin diseases are a diverse group of diseases that collectively affect 20-25% of the population. However, a large-scale comparison of these diseases has not been attempted. Here, we build a transcriptomic atlas of inflammatory skin diseases and map out their shared and unique features",
+    "Overall_Design": "We used whole transcriptome bulk-RNA sequencing data from skin biopsies of different patients across 40 inflammatory skin diseases.",
+    "AI_Summary_CN": "",
+    "AI_Summary": "",
+    "GEO_Link": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE330075",
+    "Submission_Date": "2026/11/20"
+  },
+  {
     "Accession": "GSE338085",
     "Title": "STAT3 Signaling is Central for Chemokine Production in E2-Induced Dermal Inflammation",
     "Organism": "Homo sapiens",
